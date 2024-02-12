@@ -1,0 +1,418 @@
+package com.example.aamir.tablayout.Activities;
+
+import android.content.ContentResolver;
+import android.content.Context;
+import android.database.Cursor;
+import android.provider.ContactsContract;
+import android.speech.tts.UtteranceProgressListener;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toast;
+
+import com.example.aamir.tablayout.Adapters.ContactsAdapter;
+import com.example.aamir.tablayout.Classes.Utility;
+import com.example.aamir.tablayout.Modals.ContactModal;
+import com.example.aamir.tablayout.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
+public class ContactsActivity extends AppCompatActivity {
+
+    @BindView(R.id.toolBar)
+    Toolbar toolbar;
+    @BindView(R.id.recyclerView_contacts)
+    RecyclerView recyclerViewContacts;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_contacts);
+
+        ButterKnife.bind(this);
+
+        //set toolbar
+        setSupportActionBar(toolbar);
+        //show back arraow on toolbar
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setDisplayShowTitleEnabled(false);
+        }
+
+
+        recyclerViewContacts.setHasFixedSize(true);
+        recyclerViewContacts.setItemAnimator(new DefaultItemAnimator());
+        recyclerViewContacts.setLayoutManager(new LinearLayoutManager(ContactsActivity.this));
+
+        //get Contacts list from content resolver
+        List<ContactModal> contactList = getContacts();
+
+
+
+        ContactsAdapter adapter = new ContactsAdapter(ContactsActivity.this,removeDuplicate(contactList));
+
+        recyclerViewContacts.setAdapter(adapter);
+
+
+    }
+
+    //remove duplicate entries from contact list
+    private List<ContactModal> removeDuplicate(List<ContactModal> list) {
+        for(int i = 1; i<list.size(); i++){
+            if(list.get(i).getId() == list.get(i-1).getId()){
+                list.remove(i);
+            }
+        }
+        return list;
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.contacts,menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+
+        if (item.getItemId() == android.R.id.home) {
+
+            for(int i=0; i< Utility.selectedContacts.size();i++){
+                Log.d("NARRA",Utility.selectedContacts.get(i).getSelectName()+" : "+
+                        Utility.selectedContacts.get(i).getSelectNumber());
+            }
+            finish(); // close this activity and return to preview activity (if there is any)
+        }
+
+        if(item.getItemId() == R.id.save_contacts){
+
+
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    public List<ContactModal> getContacts() {
+        List<ContactModal> contactModals = new ArrayList<>();
+        ContentResolver cr = getContentResolver();
+        try {
+            Cursor cur = cr.query(ContactsContract.Contacts.CONTENT_URI,
+                    null, null, null, null);
+
+
+            if (cur != null)
+                if (cur.getCount() > 0) {
+                    while (cur.moveToNext()) {
+                        String id = cur.getString(
+                                cur.getColumnIndex(ContactsContract.Contacts._ID));
+                        String name = cur.getString(cur.getColumnIndex(
+                                ContactsContract.Contacts.DISPLAY_NAME));
+
+                        if (cur.getInt(cur.getColumnIndex(
+                                ContactsContract.Contacts.HAS_PHONE_NUMBER)) > 0) {
+                            Cursor pCur = cr.query(
+                                    ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+                                    null,
+                                    ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = ?",
+                                    new String[]{id}, null);
+                            while (pCur.moveToNext()) {
+
+
+                                String phoneNo = pCur.getString(pCur.getColumnIndex(
+                                        ContactsContract.CommonDataKinds.Phone.NUMBER));
+                                contactModals.add(new ContactModal(Integer.parseInt(id),name, phoneNo,false));
+
+                            }
+                            pCur.close();
+                        }
+                    }
+                }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return contactModals;
+    }
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+adapter
+
+
+package com.example.aamir.tablayout.Adapters;
+
+import android.content.Context;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.aamir.tablayout.Classes.Utility;
+import com.example.aamir.tablayout.Modals.ContactModal;
+import com.example.aamir.tablayout.Modals.Contacts;
+import com.example.aamir.tablayout.R;
+
+import java.util.List;
+
+/**
+ * Created by Aamir on 8/5/2017.
+ */
+
+public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
+
+    Context context;
+    List<ContactModal> list;
+
+    public ContactsAdapter(Context context, List<ContactModal> list) {
+        this.context = context;
+        this.list = list;
+    }
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_contacts, parent, false);
+
+        return new ViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
+
+        final ContactModal contactModal = list.get(position);
+        holder.name.setText(contactModal.getName());
+        holder.number.setText(contactModal.getMobileNumber()+" ( "+contactModal.getId()+" )");
+        holder.checkBox.setOnCheckedChangeListener(null);
+
+
+
+
+
+        holder.checkBox.setChecked(contactModal.ischeck());
+
+        holder.checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+
+                    contactModal.setIscheck(true);
+                    // notifyDataSetChanged();
+                    Utility.selectedContacts.add(new Contacts(contactModal.getMobileNumber(),
+                            contactModal.getName()));
+                    Toast.makeText(context, position + " is checked ", Toast.LENGTH_SHORT).show();
+                } else {
+
+                    contactModal.setIscheck(false);
+                    // notifyDataSetChanged();
+
+                    for(int i=0; i<Utility.selectedContacts.size(); i++){
+                        if(Utility.selectedContacts.get(i).getSelectNumber().equals(contactModal.getMobileNumber())){
+                            Utility.selectedContacts.remove(i);
+                        }
+                    }
+                    Toast.makeText(context, position + "is un checked", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
+
+       /* if(Utility.selectedContacts.size()>0){
+
+            for(int i=0; i<Utility.selectedContacts.size(); i++){
+                if(Utility.selectedContacts.get(i).getSelectNumber().equals(contactModal.getMobileNumber())){
+                    holder.checkBox.setChecked(true);
+                    contactModal.setIscheck(true);
+                    notifyDataSetChanged();
+                }
+            }
+        }
+*/
+
+
+
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return list.size();
+    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+
+        TextView name, number;
+        CheckBox checkBox;
+
+        public ViewHolder(View itemView) {
+            super(itemView);
+
+            name = (TextView) itemView.findViewById(R.id.reminder_item_subject);
+            number = (TextView) itemView.findViewById(R.id.reminder_item_time);
+            checkBox = (CheckBox) itemView.findViewById(R.id.reminder_item_checbox);
+        }
+    }
+
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+modal
+
+package com.example.aamir.tablayout.Modals;
+
+/**
+ * Created by Aamir on 8/6/2017.
+ */
+
+public class Contacts {
+
+    String selectName;
+    String selectNumber;
+
+    public Contacts(String selectName, String selectNumber) {
+        this.selectName = selectName;
+        this.selectNumber = selectNumber;
+    }
+
+    public String getSelectName() {
+        return selectName;
+    }
+
+    public void setSelectName(String selectName) {
+        this.selectName = selectName;
+    }
+
+    public String getSelectNumber() {
+        return selectNumber;
+    }
+
+    public void setSelectNumber(String selectNumber) {
+        this.selectNumber = selectNumber;
+    }
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Layout for this activity
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aamir.tablayout.Activities.ContactsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <include android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView_contacts"
+        android:layout_marginTop="10dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+item layout
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/cardview_light_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/reminder_item_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aamir Rashid"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/reminder_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03073255773"
+                android:textColor="@android:color/background_dark"
+                android:textSize="12sp"
+                android:layout_marginTop="8dp"/>
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reminder_item_checbox"
+                android:layout_gravity="right"
+                android:layout_marginTop="-38dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#bababa"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="8dp"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+

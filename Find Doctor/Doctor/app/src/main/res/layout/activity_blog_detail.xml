@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aamir.doctor.Activities.BlogDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/back"
+            android:src="@drawable/back"
+            android:layout_weight="1"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_gravity="left|center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="POST DETAIL"
+            android:id="@+id/heading"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:background="@drawable/toolbar_shadow"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/calendar"
+                    android:tint="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_blog_date"
+                    android:text="August 12, 2017"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDarkOpacity"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView_blog_image"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/login_back"/>
+
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AAMIR AAMIR"
+                android:textSize="24dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/textView_blog_heading"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+
+
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/textView_blog_short_desc"
+                android:layout_marginTop="20dp"
+                android:typeface="sans"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <ProgressBar
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/progress_bar"/>
+
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/textView_blog_long_desc"
+                android:layout_marginTop="20dp"
+                android:typeface="sans"
+                android:lineSpacingExtra="5dp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

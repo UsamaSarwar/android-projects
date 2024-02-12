@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_marginTop="30dp">
+
+               <Button
+                   android:layout_width="200dp"
+                   android:layout_height="40dp"
+                   android:background="@drawable/button_bg"
+                   android:text="Call"
+                   android:textSize="18sp"
+                   android:textColor="@color/white"
+                   android:id="@+id/button_call_hospital"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginTop="30dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:id="@+id/linear_layout_services">
+
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:layout_marginLeft="5dp"
+                       android:layout_marginTop="5dp"
+                       android:src="@drawable/services" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginTop="5dp"
+                       android:id="@+id/linear_layout_dr_detail_services_click"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Services"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textSize="18sp"
+                           android:textStyle="bold"
+                           android:id="@+id/dr_services_heading"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textSize="15sp"
+                           android:id="@+id/textView_dr_detail_services"
+                           android:layout_marginTop="5dp"/>
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="+ More Services"
+                           android:textSize="16sp"
+                           android:textColor="@color/colorAccent"
+                           android:id="@+id/textView_more_services"
+                           android:layout_marginTop="7dp"/>
+
+                       <View
+                           android:layout_width="match_parent"
+                           android:layout_height="0.5dp"
+                           android:background="@color/contentColorGray"
+                           android:layout_marginTop="15dp"
+                           />
+
+
+
+
+                   </LinearLayout>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginTop="10dp">
+
+                   <ImageView
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:layout_marginLeft="5dp"
+                       android:layout_marginTop="5dp"
+                       android:src="@drawable/location" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="20dp"
+                       android:layout_marginTop="5dp"
+                       android:orientation="vertical">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Address"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textSize="18sp"
+                           android:textStyle="bold"
+                           android:id="@+id/dr_address_heading"/>
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Address"
+                           android:textColor="@color/colorPrimaryDark"
+                           android:textSize="14sp"
+                           android:id="@+id/textView_dr_detail_address"
+                           android:layout_marginTop="10dp"/>
+
+                       <View
+                           android:layout_width="match_parent"
+                           android:layout_height="0.5dp"
+                           android:background="@color/contentColorGray"
+                           android:layout_marginTop="15dp"
+                           />
+
+                   </LinearLayout>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>

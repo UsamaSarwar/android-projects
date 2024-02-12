@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.aamir.doctor.Activities.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/tabeeb_black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:textColor="@color/colorPrimaryDark2"
+            android:textSize="16sp"
+            android:id="@+id/version"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_separator_height"
+                android:layout_marginLeft="@dimen/line_separator_margin_side"
+                android:layout_marginRight="@dimen/line_separator_margin_side"
+                android:background="@color/contentColorGray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/table_row_about_padding"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/table_row_about_padding"
+                android:weightSum="1"
+                android:onClick="launchAbout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/team"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/text_about_margin_side"
+                    android:layout_marginRight="@dimen/text_about_margin_side"
+                    android:textSize="16sp"
+                    android:id="@+id/Team"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_separator_height"
+                android:layout_marginLeft="@dimen/line_separator_margin_side"
+                android:layout_marginRight="@dimen/line_separator_margin_side"
+                android:background="@color/contentColorGray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/table_row_about_padding"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/table_row_about_padding"
+                android:weightSum="1"
+                android:onClick="launchContact">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/text_about_margin_side"
+                    android:layout_marginRight="@dimen/text_about_margin_side"
+                    android:textSize="16sp"
+                    android:id="@+id/contact"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_separator_height"
+                android:layout_marginLeft="@dimen/line_separator_margin_side"
+                android:layout_marginRight="@dimen/line_separator_margin_side"
+                android:background="@color/contentColorGray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/table_row_about_padding"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/table_row_about_padding"
+                android:weightSum="1"
+                android:onClick="launchRate">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rate_app"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/text_about_margin_side"
+                    android:layout_marginRight="@dimen/text_about_margin_side"
+                    android:textSize="16sp"
+                    android:id="@+id/rate"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_separator_height"
+                android:layout_marginLeft="@dimen/line_separator_margin_side"
+                android:layout_marginRight="@dimen/line_separator_margin_side"
+                android:background="@color/contentColorGray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/table_row_about_padding"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/table_row_about_padding"
+                android:weightSum="1"
+                android:onClick="launchDescription">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="@dimen/text_about_margin_side"
+                    android:layout_marginRight="@dimen/text_about_margin_side"
+                    android:textSize="16sp"
+                    android:id="@+id/description"
+                    android:layout_gravity="center_vertical"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_separator_height"
+                android:layout_marginLeft="@dimen/line_separator_margin_side"
+                android:layout_marginRight="@dimen/line_separator_margin_side"
+                android:background="@color/contentColorGray"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/table_row_about_padding"
+                android:background="?attr/selectableItemBackground"
+                android:paddingBottom="@dimen/table_row_about_padding"
+                android:weightSum="1"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/facebook"
+                    android:onClick="launchFacebook"
+                    android:layout_marginRight="5dp"
+                    />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/google_share"
+                    android:onClick="launchEmail"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

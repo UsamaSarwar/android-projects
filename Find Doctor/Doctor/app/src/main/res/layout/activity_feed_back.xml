@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.aamir.doctor.Activities.FeedBack"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/back_feedback"
+            android:src="@drawable/back"
+            android:layout_weight="1"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_gravity="left|center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="GIVE FEEDBACK"/>
+
+
+    </LinearLayout>
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:background="@drawable/toolbar_shadow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_dr_name_feedback"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Dr name"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Would you recommend this doctor"
+            android:textSize="16sp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:id="@+id/feedback_text_1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Write your Feedback about doctor"
+            android:textSize="16sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:id="@+id/feedback_text_2"
+            />
+
+        <EditText
+            android:id="@+id/editText_feedback_comments"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:lines="5"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:padding="10dp"
+            android:background="@drawable/text_area_back"
+            android:hint="Write your comments..."
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_bg"
+            android:text="Send Feedback"
+            android:textColor="@android:color/white"
+            android:id="@+id/button_feedback_send"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

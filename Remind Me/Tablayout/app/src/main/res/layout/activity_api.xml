@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                layout="@layout/toolbar"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.AppBarLayout>
+        <View
+            android:id="@+id/toolbar_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_shadow_height"
+            android:layout_marginBottom="@dimen/toolbar_shadow_adjust"
+            android:background="@drawable/toolbar_shadow"/>
+
+
+    </LinearLayout>
+
+
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="16dp">
+
+       <ai.api.ui.AIButton
+           android:layout_height="0dp"
+           android:layout_width="0dp"
+           android:src="#fab8b8"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true"
+           android:id="@+id/micButton"
+           tools:layout_editor_absoluteY="25dp"
+           tools:layout_editor_absoluteX="0dp" />
+       <!-- <pl.droidsonroids.gif.GifTextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/voice_animation_a"
+            android:layout_marginTop="60dp"
+            android:id="@+id/gif"/>-->
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="You can give command like :\n Set reminder for me \n Set Meeting"
+           android:lineSpacingExtra="3dp"
+           android:id="@+id/textView2"
+           android:textColor="@color/colorPrimary"
+           android:textSize="16sp"
+           android:layout_marginTop="20dp"
+           app:layout_constraintTop_toBottomOf="@+id/textView3"
+           android:layout_marginLeft="8dp"
+           app:layout_constraintLeft_toLeftOf="parent"
+           android:layout_marginRight="8dp"
+           app:layout_constraintRight_toRightOf="parent" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorPrimary"
+           android:text="Subjects : Food,Presentation,Exams etc"
+           android:textSize="16sp"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="8dp"
+           app:layout_constraintLeft_toLeftOf="parent"
+           android:layout_marginRight="8dp"
+           app:layout_constraintRight_toRightOf="parent"
+           android:id="@+id/textView3" />
+
+       <ImageButton
+           android:layout_height="80dp"
+           android:layout_width="80dp"
+           android:src="@drawable/mic"
+           android:id="@+id/listen"
+           android:layout_marginRight="8dp"
+           app:layout_constraintRight_toRightOf="parent"
+           android:layout_marginLeft="8dp"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:layout_marginBottom="8dp"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginTop="8dp" />
+
+
+
+       <TextView
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:id="@+id/resultTextView"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:layout_below="@+id/listen"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:layout_marginBottom="8dp"
+           android:layout_marginTop="8dp"
+           app:layout_constraintTop_toBottomOf="@+id/listen"
+           app:layout_constraintVertical_bias="0.288"
+           android:textColor="@color/colorPrimary"
+           android:layout_marginLeft="8dp"
+           app:layout_constraintLeft_toLeftOf="parent"
+           android:layout_marginRight="8dp"
+           app:layout_constraintRight_toRightOf="parent" />
+
+
+
+   </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

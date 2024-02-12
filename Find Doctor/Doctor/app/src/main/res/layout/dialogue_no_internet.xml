@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:background="@drawable/card"
+    >
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp" android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/imageView_dialigue_close"
+            android:src="@drawable/error_cross"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_dialogue_no_internet_1"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="20sp"
+            android:text="Somthing Went Wrong"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/textView_dialogue_no_internet_2"
+            android:text="Require an Internet Connection!"/>
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:id="@+id/button_dialogue_button"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="12dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

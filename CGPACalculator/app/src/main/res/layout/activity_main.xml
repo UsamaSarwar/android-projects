@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/main">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Credit                    Marks"
+        android:id="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:id="@+id/sub3Credit"
+        android:text="0"
+
+        android:layout_below="@+id/text" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:text="0"
+        android:id="@+id/sub4Credit"
+        android:layout_below="@+id/sub3Credit"
+        android:layout_alignRight="@+id/sub3Credit"
+        android:layout_alignEnd="@+id/sub3Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:id="@+id/sub5Credit"
+        android:layout_alignRight="@+id/sub4Credit"
+        android:layout_alignEnd="@+id/sub4Credit"
+        android:layout_below="@+id/sub4Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:id="@+id/sub6Credit"
+        android:layout_below="@+id/sub5Credit"
+        android:layout_alignRight="@+id/sub5Credit"
+        android:layout_alignEnd="@+id/sub5Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:text="0"
+        android:hint="Cr Hr"
+        android:id="@+id/sub7Credit"
+        android:layout_below="@+id/sub6Credit"
+        android:layout_alignRight="@+id/sub6Credit"
+        android:layout_alignEnd="@+id/sub6Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:id="@+id/sub8Credit"
+        android:layout_below="@+id/sub7Credit"
+        android:layout_alignRight="@+id/sub7Credit"
+        android:layout_alignEnd="@+id/sub7Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Cr Hr"
+        android:id="@+id/sub9Credit"
+        android:layout_below="@+id/sub8Credit"
+        android:layout_alignRight="@+id/sub8Credit"
+        android:layout_alignEnd="@+id/sub8Credit" />
+
+    <EditText
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub3mar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text"
+        android:layout_toRightOf="@+id/sub3Credit"
+        android:layout_toEndOf="@+id/sub3Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub4mar"
+        android:layout_below="@+id/sub3Credit"
+        android:layout_toRightOf="@+id/sub3Credit"
+        android:layout_toEndOf="@+id/sub3Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub5mar"
+        android:layout_above="@+id/sub6Credit"
+        android:layout_toRightOf="@+id/sub4Credit"
+        android:layout_toEndOf="@+id/sub4Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub6mar"
+        android:layout_above="@+id/sub7Credit"
+        android:layout_toRightOf="@+id/sub5Credit"
+        android:layout_toEndOf="@+id/sub5Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Marks"
+        android:ems="10"
+        android:id="@+id/sub7mar"
+        android:layout_alignBottom="@+id/sub7Credit"
+        android:layout_toRightOf="@+id/sub6Credit"
+        android:layout_toEndOf="@+id/sub6Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub8mar"
+        android:layout_above="@+id/sub9Credit"
+        android:layout_toRightOf="@+id/sub7Credit"
+        android:layout_toEndOf="@+id/sub7Credit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:text="0"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Marks"
+        android:id="@+id/sub9mar"
+        android:layout_alignBottom="@+id/sub9Credit"
+        android:layout_toRightOf="@+id/sub8Credit"
+        android:layout_toEndOf="@+id/sub8Credit" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/buttonSubimit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/sub9mar"
+        android:layout_alignEnd="@+id/sub9mar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textSize="50dp"
+        android:maxLength="4"
+        android:id="@+id/CGP"
+        android:layout_below="@+id/sub9Credit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This App is Developed by Furqan Ullah"
+        android:id="@+id/textView" android:layout_toStartOf="@+id/sub9mar"
+        android:layout_below="@+id/CGP" android:layout_alignBottom="@+id/CGP" />
+
+
+</RelativeLayout>

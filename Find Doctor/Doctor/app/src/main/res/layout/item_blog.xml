@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notification_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:transitionName="cardTransition"
+    card_view:cardUseCompatPadding="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAMIR AAMIR"
+            android:textSize="24dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView_blog_heading"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+
+       <LinearLayout
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp">
+           <ImageView
+               android:layout_width="15dp"
+               android:layout_height="15dp"
+               android:layout_marginRight="7dp"
+               android:layout_marginTop="2dp"
+               android:src="@drawable/calendar"
+               android:tint="@color/colorAccent"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/textView_blog_date"
+               android:text="August 12, 2017"
+               android:textSize="16sp"
+               android:textColor="@color/colorPrimaryDarkOpacity"/>
+
+       </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageView_blog_image"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/login_back"/>
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIRAAMIR AAMIR"
+            android:textSize="15dp"
+            android:id="@+id/textView_blog_short_desc"
+            android:layout_marginTop="20dp"
+            android:typeface="sans"
+            android:lineSpacingExtra="5dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="View Detail"
+            android:background="@drawable/blog_btn"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:id="@+id/button_blog_detail"
+            android:layout_marginTop="20dp"
+            android:typeface="sans"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@color/colorPrimaryDarkOpacity"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

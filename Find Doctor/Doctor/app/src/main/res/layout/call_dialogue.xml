@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:background="@drawable/card"
+    >
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp" android:background="@android:color/transparent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView_dialogue_call"
+            android:src="@drawable/make_call"
+            android:tint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_dialogue_call_text"
+            android:textColor="@color/colorPrimaryDarkOpacity"
+            android:textSize="20sp"
+            android:text="Somthing Wrong"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:text="Need Internet Connection"
+            android:id="@+id/textView_dialogue_call_number" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/button_dialogue_call"
+            android:text="Call"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

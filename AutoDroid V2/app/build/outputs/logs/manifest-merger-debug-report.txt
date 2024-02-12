@@ -1,0 +1,675 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:2:1-117:12
+	xmlns:android
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+uses-feature#android.software.device_admin
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:6:9-53
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.CAMERA
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:15:22-62
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:17:22-70
+uses-permission#android.permission.INTERNET
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:23:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:24:5-74
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:24:22-72
+uses-permission#android.permission.MODIFY_PHONE_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:25:22-74
+uses-feature#android.hardware.camera
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:30:5-60
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:30:19-57
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:32:5-72
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:32:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:33:5-81
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:33:22-78
+application
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:35:5-115:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.getbase:floatingactionbutton:1.9.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.9.0\AndroidManifest.xml:12:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\1.2.1\AndroidManifest.xml:28:5-20
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.bignerdranch.android\recyclerview-multiselect\0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.amulyakhare\com.amulyakhare.textdrawable\1.0.1\AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:39:9-41
+	android:allowBackup
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:37:9-35
+	android:icon
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:38:9-43
+	android:theme
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:41:9-59
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:36:9-36
+receiver#com.fyp.furqan.security.BatteryOkReciever
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:42:9-46:20
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:42:19-52
+intent-filter#android.intent.action.BATTERY_LOW
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:43:13-45:29
+action#android.intent.action.BATTERY_LOW
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:44:25-73
+receiver#com.fyp.furqan.security.BatteryLowReciever
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:47:9-51:20
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:47:19-53
+receiver#com.fyp.furqan.security.BootReceiver
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:53:9-57:20
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:53:19-47
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:54:13-56:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:55:17-78
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:55:25-76
+receiver#com.fyp.furqan.security.AlarmReceiver
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:60:5-46
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:60:15-44
+receiver#com.fyp.furqan.security.AdminReceiver
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:64:5-77:20
+	android:permission
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:66:13-70
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:65:13-42
+meta-data#android.app.device_admin
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:67:13-69:56
+	android:resource
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:69:17-53
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:68:17-56
+intent-filter#android.app.action.ACTION_PASSWORD_CHANGED+android.app.action.ACTION_PASSWORD_FAILED+android.app.action.ACTION_PASSWORD_SUCCEEDED+android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:71:13-76:29
+action#android.app.action.DEVICE_ADMIN_ENABLED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:72:17-82
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:72:25-79
+action#android.app.action.ACTION_PASSWORD_CHANGED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:73:17-85
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:73:25-82
+action#android.app.action.ACTION_PASSWORD_FAILED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:74:17-84
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:74:25-81
+action#android.app.action.ACTION_PASSWORD_SUCCEEDED
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:75:17-87
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:75:25-84
+activity#com.fyp.furqan.security.mainfile
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:79:9-55
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:79:19-43
+activity#com.fyp.furqan.security.MainActivity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:80:9-50
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:80:19-47
+activity#com.fyp.furqan.security.Email_Activity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:81:9-52
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:81:19-49
+meta-data#com.google.android.gms.version
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:83:9-85:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:84:13-58
+	android:value
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:85:13-66
+service#com.fyp.furqan.security.MyService
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:87:9-54
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:87:18-43
+activity#com.fyp.furqan.security.Locations_List
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:89:9-52
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:89:19-49
+activity#com.fyp.furqan.security.Locaion_Config
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:90:9-52
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:90:19-49
+activity#com.fyp.furqan.security.PerformTask
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:91:9-49
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:91:19-46
+activity#com.fyp.furqan.security.ReminderAddActivity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:92:9-56
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:92:19-54
+activity#com.fyp.furqan.security.ReminderEditActivity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:94:9-57
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:94:19-55
+activity#com.fyp.furqan.security.MeetingActivity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:95:1-54
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:95:11-42
+activity#com.fyp.furqan.security.StartActivity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:96:9-103:20
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:96:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:98:13-102:29
+action#android.intent.action.MAIN
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:99:17-69
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:99:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:101:27-74
+activity#com.fyp.furqan.security.Location
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:104:9-46
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:104:19-43
+activity#com.fyp.furqan.security.Battery_Low_Activity
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:105:9-67
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:105:19-55
+receiver#com.fyp.furqan.security.CallBlocker
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:107:9-112:20
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:107:19-46
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:108:13-111:29
+	android:priority
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:108:28-51
+action#android.intent.action.PHONE_STATE
+ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:109:17-83
+	android:name
+		ADDED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:109:25-73
+uses-sdk
+INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.1.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.getbase:floatingactionbutton:1.9.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.9.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.bignerdranch.android\recyclerview-multiselect\0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.amulyakhare\com.amulyakhare.textdrawable\1.0.1\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.1.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.1.0\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:21:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.1.0\AndroidManifest.xml:30:19-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:23:5-25:33
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:23:5-25:33
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:25:8-31
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:24:8-40
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from E:\Study\FYP\AutoDroid\app\src\main\AndroidManifest.xml:2:1-117:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.1.0\AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:28:7-31:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:31:11-35
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:29:11-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:41:7-44:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:44:11-35
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:43:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.1.0\AndroidManifest.xml:42:11-82
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.1.0\AndroidManifest.xml:22:22-71
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:23:9-25:56
+MERGED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:23:9-25:56
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:25:13-53
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:22.1.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\AndroidManifest.xml:24:13-66
+uses-permission#android.permission.VIBRATE
+ADDED from [com.wdullaer:materialdatetimepicker:1.2.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\1.2.1\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.wdullaer:materialdatetimepicker:1.2.1] E:\Study\FYP\AutoDroid\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\1.2.1\AndroidManifest.xml:26:22-63

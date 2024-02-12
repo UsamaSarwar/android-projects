@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="none">
+
+
+        <item android:id="@+id/blog_drawer"
+            android:title="Health Corner"
+            android:icon="@drawable/blog"></item>
+
+        <item android:id="@+id/lab_drawer"
+            android:title="Laboratory"
+            android:icon="@drawable/labortary"></item>
+
+        <item android:id="@+id/change_location_drawer"
+            android:title="Select City"
+            android:icon="@drawable/choose_location"></item>
+
+        <item android:id="@+id/contact_us_drawer"
+            android:title="Contact"
+            android:icon="@drawable/contact_us"></item>
+
+        <item android:id="@+id/about_us_drawer"
+            android:title="About us"
+            android:icon="@drawable/about_us"></item>
+
+        <item android:id="@+id/share_drawer"
+            android:title="Share"
+            android:icon="@drawable/share"
+            ></item>
+
+
+       <!-- <item android:id="@+id/login_drawer"
+            android:title="Log In"
+            android:icon="@drawable/log_in"></item>
+-->
+
+    </group>
+</menu>

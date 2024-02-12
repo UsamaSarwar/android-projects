@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.aamir.doctor.Activities.PatientFeedback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/back_patient_feed_back"
+            android:src="@drawable/back"
+            android:layout_weight="1"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_gravity="left|center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appName"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="Pt Feedback"
+            android:inputType="textCapCharacters"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow_height"
+        android:background="@drawable/toolbar_shadow"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="5dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:padding="10dp"
+           android:gravity="center">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Dr name"
+               android:textColor="@color/cardview_dark_background"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_marginTop="10dp"
+               android:id="@+id/textView_patient_feedback_dr_name"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Dr Education"
+               android:textColor="@color/cardview_dark_background"
+               android:layout_gravity="center"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:id="@+id/textView_patient_feedback_dr_education"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Dr Experience"
+               android:textColor="@color/cardview_dark_background"
+               android:textSize="14sp"
+               android:layout_marginTop="10dp"
+               android:id="@+id/textView_patient_feedback_dr_experience"/>
+
+       </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/file_not_found"
+            android:id="@+id/imageView_patient_feedback_inactive"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_patient_feed_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+</LinearLayout>

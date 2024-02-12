@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TABEEB</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="version">Version 1.0.1</string>
+    <string name="contact">Contact us</string>
+    <string name="rate_app">Rate app</string>
+    <string name="email">Email</string>
+    <string name="team">Our Team</string>
+    <string name="desc">Description</string>
+    <string name="emailaddress">info@tabeeb.com.pk</string>
+    <string name="send_email">Send Email</string>
+    <string name="edit">Log Out</string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=com.DigitalDroid.Tabeeb</string>
+
+
+    <string-array name="doctor_cat_icon">
+        <item>med_dentist</item>
+        <item>med_ear</item>
+        <item>med_eye</item>
+        <item>med_brain</item>
+        <item>med_child</item>
+        <item>med_general</item>
+        <item>med_gyni</item>
+        <item>med_medical</item>
+        <item>med_ortho</item>
+        <item>med_urolo</item>
+        <item>med_onology</item>
+        <item>med_liver</item>
+        <item>med_radio</item>
+        <item>med_stomach</item>
+        <item>med_tharapy</item>
+        <item>med_lung</item>
+        <item>med_psychatris</item>
+        <item>med_heart</item>
+    </string-array>
+
+    <string-array name="doctor_cat_name">
+
+        <item>Dentistry</item>
+        <item>Ear Nose Throat</item>
+        <item>Eye Specialist</item>
+        <item>Neurology</item>
+        <item>Child Specialist</item>
+        <item>General Physician</item>
+        <item>Gynecology</item>
+        <item>Medical Specialist</item>
+        <item>Orthopedic</item>
+        <item>Urology</item>
+        <item>Skin Specialist</item>
+        <item>Liver Specialist</item>
+        <item>Radiologist</item>
+        <item>Gastroenterology</item>
+        <item>Physiotherapy</item>
+        <item>Pulmonology</item>
+        <item>Psychiatry</item>
+        <item>Cardiology</item>
+    </string-array>
+</resources>

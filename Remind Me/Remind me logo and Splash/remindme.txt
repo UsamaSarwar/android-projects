@@ -1,0 +1,11 @@
+Remind Me is best reminder notification application to set reminders and get notification.
+
+FEATURES
+- You can set reminder manually as well as through voice commands without physical interaction.
+- Remind Me have facility to choose color and icon according to reminder type and your choice.
+- You will get on screen notification of particular notification at specific time and date.
+
+USES
+- Get active and inactive reminder lists
+- You can set medicines reminder with medicine icon and all other reminders of you desired with desired icons.
+- Create shopping list and the application give you notification about that. 
